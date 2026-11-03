@@ -10,12 +10,12 @@
 
 .grid {
   flex: 1; min-height: 0; display: grid; grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(var(--rows, 2), minmax(150px, 1fr)); gap: 0 clamp(8px, 1.4vw, 28px);
+  grid-template-rows: repeat(var(--rows, 2), minmax(150px, 1fr)); gap: 0 clamp(20px, 3vw, 48px);
 }
 .card { display: flex; min-height: 0; }
 .card__link { display: flex; flex-direction: column; justify-content: flex-end; width: 100%; padding-bottom: 4px; outline-offset: -4px; }
 
-.card__lift { transition: transform 0.55s var(--ease); width: 120%; margin-left: -10%; }
+.card__lift { transition: transform 0.55s var(--ease); width: 86%; margin: 0 auto; }
 .card__shoe { aspect-ratio: 2 / 1; margin-bottom: -7px; position: relative; z-index: 1; filter: drop-shadow(0 16px 18px rgba(0, 0, 0, 0.45)); }
 
 .card__shelf {
