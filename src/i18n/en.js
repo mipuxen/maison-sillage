@@ -1,0 +1,107 @@
+// English (default). Every other language must have exactly these keys (see i18n.test.js).
+// {name} style placeholders are filled in by t(key, { name: ... }).
+export default {
+  'meta.collection': 'Maison Sillage / Every step leaves a trace.',
+  'meta.product': '{name} / Maison Sillage',
+  'meta.about': 'About / Maison Sillage',
+  'meta.contact': 'Contact / Maison Sillage',
+
+  skip: 'Skip to the content',
+  'brand.aria': 'Maison Sillage, back to the collection',
+  'nav.label': 'Main navigation',
+  'nav.collection': 'Collection',
+  'nav.about': 'About',
+  'nav.contact': 'Contact',
+  'nav.menu': 'Open menu',
+  'nav.close': 'Close menu',
+  'lang.label': 'Language',
+  'bag.button': 'Bag ({count})',
+  'bag.aria': 'Open bag, {count} items',
+  'preloader.label': 'Loading',
+
+  'collection.eyebrow':
+    'Footwear / Series 01',
+  'collection.headline': 'Every step leaves a trace.',
+  'collection.grid': 'Collection',
+  'card.aria': '{name}, {color}. View details',
+  'shoe.alt': '{name}, {color} sneaker',
+
+  'footer.edition': 'Series 01',
+  'footer.count': '{count} silhouettes',
+  'footer.hint': 'Explore the collection. Select a silhouette.',
+  'footer.page': 'Maison Sillage · Concept store',
+  'footer.pager': 'Browse silhouettes',
+  'footer.prev': 'Previous: {name}',
+  'footer.next': 'Next: {name}',
+  'footer.about': 'About this store',
+
+  'product.eyebrow': 'Maison Sillage / {index}',
+  'product.series': 'Series 01 / Footwear',
+  'product.panel': 'Purchase options',
+  'product.size': 'Choose your size',
+  'product.sizeUnit': 'EU',
+  'product.selectSize': 'Select a size',
+  'product.sizeOption': 'EU {size}',
+  'product.sizeError': 'Please choose a size first.',
+  'product.add': 'Add to bag',
+  'product.details': 'Details',
+  'product.concept': 'Concept product, not for sale',
+
+  'bag.title': 'Your bag',
+  'bag.close': 'Close bag',
+  'bag.empty': 'Your bag is empty.',
+  'bag.browse': 'Browse the collection',
+  'bag.meta': 'EU {size} / {color}',
+  'bag.qty': 'Quantity for {name}',
+  'bag.dec': 'Decrease quantity',
+  'bag.inc': 'Increase quantity',
+  'bag.remove': 'Remove',
+  'bag.subtotal': 'Subtotal',
+  'bag.note': 'Concept collection. Products are not available for purchase.',
+  'bag.checkout': 'Checkout unavailable',
+
+  'about.eyebrow': 'Maison Sillage / About',
+  'about.def': 'sillage, n.m. (French)',
+  'about.headline': 'The trace left behind by something that moves.',
+  'about.text':
+    'Fifteen silhouettes from brands we admire, shown on one wall. Each pair is chosen around a single idea: a shoe should look as good standing still as it does mid-stride.',
+  'about.steps': 'How the store works',
+  'about.step1': 'Explore the wall',
+  'about.step2': 'Find your silhouette',
+  'about.step3': 'Leave your mark',
+  'about.note':
+    'Maison Sillage is a concept store built for learning. Prices are for demonstration only, and checkout is unavailable.',
+  'about.cta': 'Explore the collection',
+
+  'dev.eyebrow': 'Designed and built by',
+  'dev.role': 'AI Agentic Software Engineer',
+  'dev.bio':
+    'I build AI agents and full-stack web applications. Maison Sillage is a React study project in motion, state management and accessibility, made without a UI library.',
+  'dev.stack': 'Stack',
+  'dev.github': 'GitHub',
+
+  'contact.eyebrow': 'Maison Sillage / Contact',
+  'contact.headline': 'Say hello.',
+  'contact.text':
+    'A question about the project, feedback on the code, or an idea to build together. Leave a message below.',
+  'contact.demo': 'This is a demo form. Your message is checked in the browser and is not sent anywhere.',
+  'contact.form': 'Contact form',
+  'contact.name': 'Your name',
+  'contact.email': 'Email',
+  'contact.message': 'Message',
+  'contact.err.name': 'Enter your name (at least 2 characters).',
+  'contact.err.email': 'Enter a valid email address, like name@example.com.',
+  'contact.err.message': 'Write a message of at least 10 characters.',
+  'contact.submit': 'Send message',
+  'contact.sentTitle': 'Thank you, {name}.',
+  'contact.sentText': 'Your message passed every check. This is a demo, so it was not sent anywhere.',
+  'contact.again': 'Write another message',
+  'contact.elsewhere': 'Find me on',
+  'contact.github': 'Code and other projects',
+  'gallery.label':
+    'Product photos',
+  'gallery.view':
+    'Photo {n} of {total}',
+  'about.credits':
+    'Product photos and trademarks (Nike, New Balance, Lacoste, ASICS, Descente, Everlast, Slazenger) belong to their respective owners. This non-commercial study project is not affiliated with any of them.',
+};
