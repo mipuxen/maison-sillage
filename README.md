@@ -9,7 +9,7 @@ It is a concept, so there is no real checkout.
 
 **Live demo:** https://mipuxen.github.io/maison-sillage/
 
-![Maison Sillage](public/og-image.jpg)
+![Maison Sillage](public/github_desc.png)
 
 ## Features
 
