@@ -4,9 +4,10 @@ A concept sneaker boutique on a single page. Sillage (French, n.m.): the trace l
 
 Fifteen silhouettes rest on a wall of lit shelves, like a quiet gallery after hours. Choose one and the camera moves in: the shoe leaves its shelf and settles on its own page, where you can turn it over, look at it from every angle, choose your size and put it in your bag.
 
-  <meta property="og:image" content="https://mipuxen.github.io/maison-sillage/og-image.jpg" />
+ **Live demo:** https://mipuxen.github.io/maison-sillage/
 
-Visit the store → mipuxen.github.io/maison-sillage
+![Maison Sillage](public/og-image.jpg)
+
 
 Maison Sillage collection wall
 
