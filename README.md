@@ -78,25 +78,6 @@ public/shoes/           product photos, one folder per product
 docs/IMAGE_PROMPTS.md   prompts for generating the product photos
 ```
 
-## Deploy to GitHub Pages
-
-The workflow in `.github/workflows/deploy.yml` tests, builds and publishes on every push to `main`.
-
-```bash
-git init
-git add .
-git commit -m "Maison Sillage: first version"
-git branch -M main
-git remote add origin https://github.com/mipuxen/maison-sillage.git
-git push -u origin main
-```
-
-Then in the repository: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
-The site appears at `https://mipuxen.github.io/maison-sillage/` after the first run (Actions tab).
-
-The build uses a relative base path and hash routing, so it works under any repository name.
-If you choose another name, update the two `og:` URLs in `index.html`.
-
 ## Credits
 
 Product photos and trademarks (Nike, New Balance, Lacoste, ASICS, Descente, Everlast, Slazenger) belong to
