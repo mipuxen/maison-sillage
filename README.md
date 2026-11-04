@@ -6,7 +6,7 @@ Fifteen silhouettes rest on a wall of lit shelves, like a quiet gallery after ho
 
  **Live demo:** https://mipuxen.github.io/maison-sillage/
 
-![Maison Sillage](public/og-image.jpg)
+![Maison Sillage](public/github_desc.png)
 
 
 Maison Sillage collection wall
